@@ -720,7 +720,7 @@ class TrackBuilder {
                     const url = URL.createObjectURL(blob);
                     const a = document.createElement('a');
                     a.href = url;
-                    a.download = `track-layout-${this.gridWidth}x${this.gridHeight}-HQ.png`;
+                    a.download = `Custom Track - ${this.gridWidth}x${this.gridHeight}.png`;
                     document.body.appendChild(a);
                     a.click();
                     document.body.removeChild(a);
